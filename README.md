@@ -30,12 +30,12 @@ This repository contains an implementation of a lightweight text classification 
 - scikit-learn` 
 
 ## Installation
-bash
+clone:
 https://github.com/tanaya09/CS-GY-6953-Deep-Learning-Project-2.git
 
 
 
-Dataset & Preprocessing
+##Dataset & Preprocessing
 
 Dataset: AG News (4 classes, 120 K train / 7.6 K test samples)
 Tokenization: RobertaTokenizer with truncation+padding
@@ -61,3 +61,9 @@ Test Accuracy: 92.3 %
 Training time: ~5 min/epoch on NVIDIA T4
 Convergence: plateau by epoch 3
 Inference: identical speed/memory to vanilla RoBERTa
+
+
+**Authors:**
+- Mukesh Durga
+- Tanaya Pawar
+- Tejaswini Ojha
